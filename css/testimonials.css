@@ -1,0 +1,30 @@
+.testimonial-section {
+    background: #f8f2e8;
+}
+.testimonial-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.testi-card {
+    background: white;
+    border-radius: 2rem;
+    padding: 1.8rem;
+    width: 300px;
+    transition: 0.2s;
+    box-shadow: var(--shadow-sm);
+}
+.testi-card i.fa-quote-left {
+    color: #c7a05b;
+    font-size: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+.testi-card p {
+    font-style: italic;
+    margin: 1rem 0;
+}
+.testi-card h4 {
+    margin-top: 0.5rem;
+    color: #2d6a4f;
+}

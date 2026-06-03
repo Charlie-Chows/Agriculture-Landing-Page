@@ -1,0 +1,35 @@
+.practices-section {
+    background: #eef4e6;
+}
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    color: #294e32;
+}
+.practices-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+.practice-card {
+    background: white;
+    border-radius: 28px;
+    padding: 1.8rem;
+    text-align: center;
+    transition: all 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.03);
+    border: 1px solid #e9dbc9;
+}
+.practice-card i {
+    font-size: 2.5rem;
+    color: #5c8d5e;
+    margin-bottom: 1rem;
+}
+.practice-card h3 {
+    margin: 0.8rem 0;
+}
+.practice-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -12px rgba(0,0,0,0.15);
+}

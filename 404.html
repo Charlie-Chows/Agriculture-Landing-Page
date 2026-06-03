@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found | Desi Kisaan</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(145deg, #fef9e6 0%, #f5e7d3 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .notfound-container {
+            text-align: center;
+            max-width: 650px;
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(8px);
+            padding: 3rem 2.5rem;
+            border-radius: 48px;
+            box-shadow: 0 25px 45px rgba(0,0,0,0.1), 0 2px 5px rgba(0,0,0,0.05);
+            border: 1px solid rgba(110, 69, 25, 0.15);
+        }
+        .farm-icon {
+            font-size: 85px;
+            color: #7a4c2c;
+            margin-bottom: 1.5rem;
+            display: inline-block;
+            animation: gentleShake 2s infinite ease;
+        }
+        h1 {
+            font-size: 5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #2d6a4f, #b86f2c);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+        h2 {
+            font-size: 1.9rem;
+            font-weight: 600;
+            color: #3a2819;
+            margin-bottom: 1rem;
+        }
+        p {
+            color: #4d3b28;
+            font-size: 1.1rem;
+            line-height: 1.5;
+            margin-bottom: 2rem;
+        }
+        .home-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: #2d6a4f;
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 60px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.25s ease;
+            box-shadow: 0 5px 12px rgba(45,106,79,0.3);
+        }
+        .home-btn:hover {
+            background: #1b4d3b;
+            transform: translateY(-3px);
+            box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+        }
+        @keyframes gentleShake {
+            0%,100% { transform: rotate(0deg); }
+            25% { transform: rotate(5deg); }
+            75% { transform: rotate(-5deg); }
+        }
+        @media (max-width: 550px) {
+            .notfound-container { padding: 2rem 1.5rem; }
+            h1 { font-size: 3.8rem; }
+            h2 { font-size: 1.6rem; }
+        }
+    </style>
+</head>
+<body>
+    <div class="notfound-container">
+        <div class="farm-icon">
+            <i class="fas fa-tractor"></i>
+        </div>
+        <h1>404</h1>
+        <h2>Harvest not found</h2>
+        <p>The furrow you're looking for seems to have wandered off into the fields.<br>Let's get you back to the farmstead.</p>
+        <a href="/" class="home-btn"><i class="fas fa-home"></i> Back to Farm Home</a>
+    </div>
+</body>
+</html>

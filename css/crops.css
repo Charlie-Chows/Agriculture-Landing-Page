@@ -1,0 +1,37 @@
+.crops-section {
+    background: #fff9ef;
+}
+.crops-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+.crop-item {
+    background: white;
+    border-radius: 32px;
+    flex: 1 1 280px;
+    overflow: hidden;
+    transition: 0.2s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+.crop-img {
+    height: 210px;
+    overflow: hidden;
+}
+.crop-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.4s;
+}
+.crop-item:hover .crop-img img {
+    transform: scale(1.05);
+}
+.crop-info {
+    padding: 1.2rem;
+}
+.crop-info h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.3rem;
+}
