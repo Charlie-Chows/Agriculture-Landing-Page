@@ -94,3 +94,31 @@
         background: #e2cfb3;
     }
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.s-logo {
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, #2d6a4f, #b86f2c);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-family: 'Playfair Display', serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+@media (max-width: 550px) {
+    .s-logo {
+        width: 30px;
+        height: 30px;
+        font-size: 1.2rem;
+    }
+}
